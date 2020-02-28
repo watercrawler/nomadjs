@@ -39,3 +39,57 @@ h1 {
   height: 100%;
   animation: fadeIn 0.5s linear;
 }
+
+.wrap {
+  text-align: center;
+  margin-top: 150px;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+}
+
+.wrap h1 {
+  font-size: 66px;
+}
+.wrap h2 {
+  font-size: 95px;
+  margin-bottom: 40px;
+}
+
+.showing {
+  font-size: 45px;
+  margin: 0 auto;
+}
+
+.js-toDoForm input {
+  margin: 20px auto;
+  font-size: 24px;
+}
+
+.js-toDoList {
+  list-style: none;
+  padding: 0;
+}
+.js-toDoList li {
+  margin: 0 auto;
+  width: 296px;
+  display: flex;
+  font-size: 24px;
+  font-weight: bold;
+}
+.js-toDoList button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+  color: red;
+  line-height: 34px;
+}
+
+.js-weather {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  font-size: 20px;
+}
